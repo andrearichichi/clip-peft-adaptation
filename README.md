@@ -5,7 +5,7 @@
 This project focuses on implementing **Parameter-Efficient Fine-Tuning (PEFT)** techniques to adapt the **CLIP** model \[1] for **base-to-novel classification** using the **Flowers102** dataset.
 The main objective is to explore methods that improve CLIP’s performance under few-shot conditions, while maintaining efficiency in terms of trainable parameters and computational cost.
 
----
+
 
 ## **Project Goals**
 
@@ -15,7 +15,7 @@ The main objective is to explore methods that improve CLIP’s performance under
 * Reproduce **DISEF** \[4], an improved variant of CLIP-LoRA that uses a synthetic data generation pipeline.
 * Propose and evaluate **our improved DISEF approach** to enhance accuracy and reduce computational overhead.
 
----
+
 
 ## **Implemented Techniques**
 
@@ -39,7 +39,7 @@ The main objective is to explore methods that improve CLIP’s performance under
 
    * Our optimized strategy for DISEF to achieve better performance and reduce synthetic data generation costs.
 
----
+
 
 ## **Dataset**
 
@@ -48,7 +48,7 @@ The main objective is to explore methods that improve CLIP’s performance under
   * Base classes for training.
   * Novel classes for evaluation in few-shot scenarios.
 
----
+
 
 ## **Project Structure**
 
@@ -60,7 +60,7 @@ The main objective is to explore methods that improve CLIP’s performance under
 ├── README.md           # Project documentation
 ```
 
----
+
 
 ## **Installation**
 
@@ -75,7 +75,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
+
 
 ## **Usage**
 
@@ -103,7 +103,7 @@ python main.py --mode lora --shots 16 --r 2 --alpha 32
 python main.py --mode disef --shots 16 --synthetic_data path/to/generated/images
 ```
 
----
+
 
 ## **Results**
 
@@ -115,7 +115,7 @@ python main.py --mode disef --shots 16 --synthetic_data path/to/generated/images
 
 Detailed results with Base, Novel, and Harmonic Mean metrics are reported in the **results/** folder.
 
----
+
 
 ## **References**
 
@@ -124,7 +124,7 @@ Detailed results with Base, Novel, and Harmonic Mean metrics are reported in the
 \[3] Hu et al., *LoRA: Low-Rank Adaptation of Large Language Models*, ICLR 2022
 \[4] Turrisi et al., *DISEF: Data Injection for Semantic Feature Augmentation*, 2024
 
----
+
 
 📌 **Next Steps**
 

@@ -29,8 +29,7 @@ The work is organized into the following steps:
 
 ## **References**
 
-\[1] Radford et al. – CLIP
-\[2] Zhou et al. – CoCoOp
-\[3] Hu et al. – LoRA
-\[4] Turrisi et al. – DISEF
-
+1. Radford et al. *Learning Transferable Visual Models From Natural Language Supervision.* ICML, 2021.
+2. Zhou et al. *Conditional Prompt Learning for Vision-Language Models.* CVPR, 2022.
+3. Hu et al. *LoRA: Low-Rank Adaptation of Large Language Models.* ICLR, 2022.
+4. Turrisi et al. *DISEF: Data Injection for Semantic Feature Augmentation.* 2024.
